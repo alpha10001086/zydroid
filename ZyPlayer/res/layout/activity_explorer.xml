@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  <TextView
+    android:id="@+id/GridExplorerHint"
+    android:text=""
+    android:textSize="24sp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" />
+
+  <GridView
+      android:id="@+id/GridExplorer"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:columnWidth="200dp"
+      android:gravity="center"
+      android:horizontalSpacing="10dp"
+      android:numColumns="auto_fit"
+      android:stretchMode="none"
+      android:verticalSpacing="10dp" />
+
+</LinearLayout>

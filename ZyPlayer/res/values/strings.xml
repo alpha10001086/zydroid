@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ZyPlayer</string>
+    <string name="hint_select_folder">select the folder.</string>
+    <string name="hint_press_ok_to_play">press OK to play the slideshow.</string>
+    <string name="text_default_content_description" />
+    <string name="button_ok">OK</string>
+    <string name="slideshow_interval">Interval</string>
+    <string name="slideshow_interval_3">3</string>
+    <string name="slideshow_interval_5">5</string>
+    <string name="slideshow_interval_10">10</string>
+    <string name="slideshow_transition">Transition</string>
+    <string name="slideshow_transition_clockwise">Clockwise</string>
+    <string name="slideshow_transition_counterclockwise">Counterclockwise</string>
+    <string name="slideshow_transition_cross_fade">Cross fade</string>
+    <string name="slideshow_transition_cross_zoom">Cross zoom</string>
+    <string name="slideshow_transition_slide_to_left">Slide to left</string>
+    <string name="slideshow_transition_slide_to_right">Slide to right</string>
+    
+</resources>

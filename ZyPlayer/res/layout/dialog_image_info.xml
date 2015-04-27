@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:id="@+id/JPGDialogLayout"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+<!--
+              android:paddingLeft="10dip"
+              android:paddingRight="10dip"
+-->
+
+    <TextView
+        android:id="@+id/JPGDialogText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/JPGDialogImage"
+        android:layout_width="960dip"
+        android:layout_height="540dip"
+        android:contentDescription="@string/text_default_content_description" />
+
+    <Button android:id="@+id/JPGDialogButtonOK"
+    		  android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="OK"
+    		  />
+</LinearLayout>

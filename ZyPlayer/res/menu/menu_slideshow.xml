@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/itemInterval" android:title="@string/slideshow_interval">
+        <menu>
+            <item android:id="@+id/itemInterval3" android:title="@string/slideshow_interval_3"/>
+            <item android:id="@+id/itemInterval5" android:title="@string/slideshow_interval_5"/>
+            <item android:id="@+id/itemInterval10" android:title="@string/slideshow_interval_10"/>
+        </menu>
+    </item>
+    <item android:id="@+id/itemTransition" android:title="@string/slideshow_transition">
+        <menu>
+            <item android:id="@+id/itemTransitionClockwise" android:title="@string/slideshow_transition_clockwise" />
+            <item android:id="@+id/itemTransitionCounterclockwise" android:title="@string/slideshow_transition_counterclockwise" />
+            <item android:id="@+id/itemTransitionCrossFade" android:title="@string/slideshow_transition_cross_fade"/>
+            <item android:id="@+id/itemTransitionCrossZoom" android:title="@string/slideshow_transition_cross_zoom"/>
+            <item android:id="@+id/itemTransitionSlideToLeft" android:title="@string/slideshow_transition_slide_to_left"/>
+            <item android:id="@+id/itemTransitionSlideToRight" android:title="@string/slideshow_transition_slide_to_right"/>
+        </menu>
+    </item>
+</menu>
